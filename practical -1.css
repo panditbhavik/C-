@@ -1,0 +1,8 @@
+// First Practical: Hello Everyone Program
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello Everyone" << endl;
+    return 0;
+}

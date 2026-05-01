@@ -1,0 +1,38 @@
+/*
+    Program Name: Variable Display Program
+    Author: Student
+    Purpose: To demonstrate different data types in C and their output
+    Concepts Used: int, float, double, char, const, printf
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    // Variable declarations
+    int a = 2;
+    const double b = 4.0;   // constant value
+    float c = 1.5;
+    char d = 'a';
+
+    // Printing values with correct format specifiers
+    printf("---- Variable Details ----\n");
+
+    printf("Value of a (int) is: %d\n", a);
+
+    printf("Value of b (const double) is: %lf\n", b);
+
+    printf("Value of c (float) is: %f\n", c);
+
+    printf("Value of d (char) is: %c\n", d);
+
+    // Extra: ASCII value of character
+    printf("ASCII value of d is: %d\n", d);
+
+    // Extra: simple calculation
+    printf("Sum of a and b is: %f\n", a + b);
+
+    printf("--------------------------\n");
+
+    return 0;
+}
